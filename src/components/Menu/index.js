@@ -3,9 +3,9 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import QRCode from 'react-native-qrcode';
 
-import { Container, Nav, NavItem, NavText } from './styles';
+import { Container, Nav, NavItem, NavText, SignOutButton, SignOutButtonText } from './styles';
 
-export default function Menu(){
+export default function Menu({ translateY }){
     return (
         <Container>
             <Code>
